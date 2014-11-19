@@ -3,7 +3,6 @@
 
 int c01_SumOfDigitsMain(int num) {
 	int k=1, sum=0; 
-	
     while(num!=0) 
     { 
         k=num%10; 
@@ -20,8 +19,10 @@ int main(int argc, char** argv){
 	int num = 0;
 	if (argc > 1) {
 		num = *argv[1];
+	} else {
+		num = 12345;
 	}
-    c01_SumOfDigitsMain(num);
+    printf ("Sum of Digits for num:%d is sum:%d", num, c01_SumOfDigitsMain(num));
     return 0;
 }
 
