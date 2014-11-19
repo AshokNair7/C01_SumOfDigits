@@ -22,7 +22,7 @@ int main(int argc, char** argv){
 	} else {
 		num = 12345;
 	}
-    printf ("Sum of Digits for num:%d is sum:%d", num, c01_SumOfDigitsMain(num));
+    //printf ("Sum of Digits for num:%d is sum:%d", num, c01_SumOfDigitsMain(num));
     return 0;
 }
 
