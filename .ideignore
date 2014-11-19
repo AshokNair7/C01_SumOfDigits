@@ -1,0 +1,7 @@
+target
+.stack
+Hint.md
+pom.xml
+pom_evaluation.xml
+checkstyle.xml
+verifications.xml
