@@ -18,7 +18,7 @@ int c01_SumOfDigitsMain(int num) {
 int main(int argc, char** argv){
 	int num = 0;
 	if (argc > 1) {
-		num = *argv[1];
+		num = atoi(argv[1]);
 	} else {
 		num = 12345;
 	}

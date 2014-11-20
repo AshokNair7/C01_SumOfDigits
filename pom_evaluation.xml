@@ -27,6 +27,8 @@
           <languagePack>c</languagePack>
           <sourceFile>${fileName}.c</sourceFile>
           <outputFile>${fileName}.out</outputFile>
+          
+          <compileArgs><arg>-x c++</arg></compileArgs>
 
           <testGenTool>cxxtestgen</testGenTool>
 
