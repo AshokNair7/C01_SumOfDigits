@@ -20,7 +20,7 @@ int main(int argc, char** argv){
 	if (argc > 1) {
 		num = atoi(argv[1]);
 	} else {
-		num = 12345;
+		printf("Invalid arguments passed..!");
 	}
     printf ("Sum of Digits for num:%d is sum:%d", num, c01_SumOfDigitsMain(num));
     return 0;
