@@ -34,7 +34,7 @@
 
           <testSourceDirectory>${basedir}/src</testSourceDirectory>
           <testSourceHeaderFile>${fileName}Test.h</testSourceHeaderFile>
-          <testSourceOutputFile>${fileName}Test.cpp</testSourceOutputFile>
+          <testSourceOutputFile>${fileName}Test.cxx</testSourceOutputFile>
           <testOutputFile>${fileName}Test.out</testOutputFile>
           <testGenArgs>
             <arg>--runner=XmlPrinter</arg>

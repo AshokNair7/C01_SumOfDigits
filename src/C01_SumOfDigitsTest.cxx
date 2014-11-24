@@ -19,12 +19,12 @@ int main( int argc, char *argv[] ) {
     return status;
 }
 bool suite_C01_SumOfDigitsTest_init = false;
-#include "/var/www/html/codeit/workspace/C01_SumOfDigits/src/C01_SumOfDigitsTest.h"
+#include "/var/www/html/codeit/faculty/workspace/C01_SumOfDigits/src/C01_SumOfDigitsTest.h"
 
 static C01_SumOfDigitsTest suite_C01_SumOfDigitsTest;
 
 static CxxTest::List Tests_C01_SumOfDigitsTest = { 0, 0 };
-CxxTest::StaticSuiteDescription suiteDescription_C01_SumOfDigitsTest( "/var/www/html/codeit/workspace/C01_SumOfDigits/src/C01_SumOfDigitsTest.h", 5, "C01_SumOfDigitsTest", suite_C01_SumOfDigitsTest, Tests_C01_SumOfDigitsTest );
+CxxTest::StaticSuiteDescription suiteDescription_C01_SumOfDigitsTest( "/var/www/html/codeit/faculty/workspace/C01_SumOfDigits/src/C01_SumOfDigitsTest.h", 5, "C01_SumOfDigitsTest", suite_C01_SumOfDigitsTest, Tests_C01_SumOfDigitsTest );
 
 static class TestDescription_suite_C01_SumOfDigitsTest_test_sum_pos_int : public CxxTest::RealTestDescription {
 public:
