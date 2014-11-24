@@ -3,13 +3,13 @@
 
 int c01_SumOfDigitsMain(int num) {
 	int k=1, sum=0; 
-     while(num!=0)
+    /*while(num!=0)
 	{
 		k=num%10;
 		sum=sum+k;
 		k=num/10;
 		num=k;
-	} 
+	}*/
     return sum;
 }
 
